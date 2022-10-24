@@ -1,3 +1,3 @@
-import { SudokuZkApp } from './sudoku.js';
+import { SimpleAgeProof_ } from './SimpleAgeProof.js';
 
-export { SudokuZkApp };
+export { SimpleAgeProof_ };
