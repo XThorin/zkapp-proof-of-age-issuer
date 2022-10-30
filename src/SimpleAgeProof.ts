@@ -19,7 +19,7 @@ class SimpleAgeProof_ extends SmartContract {
   @method giveAnswer(answer: Field, value: PublicKey) {
     // below a simple question
     // lets check if given answer is gte 18
-    answer.assertEquals(Field(18));
+    answer.assertGte(Field(18));
 
     // whoever manages to solve this and knows the answer
     // can prove this withought actually sharing the answer
