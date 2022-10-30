@@ -48,6 +48,6 @@
     "snarkyjs": "^0.6.0"
   },
   "dependencies": {
-    "zkapp-cli": "^0.4.15"
+    "zkapp-cli": "^0.4.17"
   }
 }
