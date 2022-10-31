@@ -1,3 +1,3 @@
-import { SimpleAgeProof_ } from './SimpleAgeProof.js';
+import { OracleAgeProof_ } from "./OracleAgeProof.js";
 
-export { SimpleAgeProof_ };
+export { OracleAgeProof_ };
