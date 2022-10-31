@@ -29,6 +29,9 @@ class OracleAgeProof_ extends SmartContract {
         21294934938834819506687011406629737744121517272917194830529619446796258228081n
       );
 
+    console.log('In zkApp, hcv:', hashChainValue.toBigInt());
+    console.log('In zkApp, sol:', solution.toBigInt());
+
     hashChainValue.assertEquals(solution);
 
     // if assertion passes, update state
