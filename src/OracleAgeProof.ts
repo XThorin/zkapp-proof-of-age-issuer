@@ -26,7 +26,7 @@ class OracleAgeProof_ extends SmartContract {
     // check if the provided age is true
     let solution =
       Field.fromBigInt(
-        1496957778934480235378927615462090253963603497313444697603913632931794435306n
+        21294934938834819506687011406629737744121517272917194830529619446796258228081n
       );
 
     hashChainValue.assertEquals(solution);
