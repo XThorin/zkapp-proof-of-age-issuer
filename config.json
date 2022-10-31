@@ -10,7 +10,14 @@
     "berkeley-oracle": {
       "url": "https://proxy.berkeley.minaexplorer.com/graphql",
       "keyPath": "keys/berkeley-oracle.json",
-      "fee": "0.1"
+      "fee": "0.1",
+      "smartContract": "OracleAgeProof_"
+    },
+    "berkeley-oracle1": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/berkeley-oracle1.json",
+      "fee": "0.1",
+      "smartContract": "OracleAgeProof_"
     }
   }
 }
