@@ -8,9 +8,9 @@ import {
   Poseidon,
 } from 'snarkyjs';
 
-export { OracleAgeProof_ };
+export { IssuerAgeProof_ };
 
-class OracleAgeProof_ extends SmartContract {
+class IssuerAgeProof_ extends SmartContract {
   @state(PublicKey) stateAddress = State<PublicKey>();
 
   @method giveAnswer(answer: Field, address: PublicKey) {
@@ -22,7 +22,7 @@ class OracleAgeProof_ extends SmartContract {
       hashChainValue = Poseidon.hash([hashChainValue]);
     }
 
-    // solution (age encryption procided by the oracle)
+    // solution (age encryption provided by the issuer)
     // check if the provided age is true
     let solution =
       Field.fromBigInt(
